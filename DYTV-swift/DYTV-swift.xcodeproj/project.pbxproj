@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9948391E2F3C8C00940920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9948381E2F3C8C00940920 /* AppDelegate.swift */; };
+		3C99483E1E2F3C8C00940920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C99483C1E2F3C8C00940920 /* Main.storyboard */; };
+		3C9948401E2F3C8C00940920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C99483F1E2F3C8C00940920 /* Assets.xcassets */; };
+		3C9948431E2F3C8C00940920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9948411E2F3C8C00940920 /* LaunchScreen.storyboard */; };
+		3C99484E1E2F3C8C00940920 /* DYTV_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99484D1E2F3C8C00940920 /* DYTV_swiftTests.swift */; };
+		3C9948591E2F3C8C00940920 /* DYTV_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9948581E2F3C8C00940920 /* DYTV_swiftUITests.swift */; };
+		3C9948861E2F3D0000940920 /* YFAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9948691E2F3D0000940920 /* YFAttentionViewController.swift */; };
+		3C9948871E2F3D0000940920 /* YFHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99486F1E2F3D0000940920 /* YFHomeViewController.swift */; };
+		3C9948881E2F3D0000940920 /* YFLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9948751E2F3D0000940920 /* YFLiveViewController.swift */; };
+		3C9948891E2F3D0000940920 /* YFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99487A1E2F3D0000940920 /* YFBaseViewController.swift */; };
+		3C99488A1E2F3D0000940920 /* YFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99487B1E2F3D0000940920 /* YFNavigationController.swift */; };
+		3C99488B1E2F3D0000940920 /* YFTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99487C1E2F3D0000940920 /* YFTabBarViewController.swift */; };
+		3C99488C1E2F3D0000940920 /* YFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99487F1E2F3D0000940920 /* YFProfileViewController.swift */; };
+		3C99488D1E2F3D0000940920 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9948851E2F3D0000940920 /* UIBarButtonItem-Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C99484A1E2F3C8C00940920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C99482D1E2F3C8C00940920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9948341E2F3C8C00940920;
+			remoteInfo = "DYTV-swift";
+		};
+		3C9948551E2F3C8C00940920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C99482D1E2F3C8C00940920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9948341E2F3C8C00940920;
+			remoteInfo = "DYTV-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C9948351E2F3C8C00940920 /* DYTV-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DYTV-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9948381E2F3C8C00940920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C99483D1E2F3C8C00940920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C99483F1E2F3C8C00940920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C9948421E2F3C8C00940920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C9948441E2F3C8C00940920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9948491E2F3C8C00940920 /* DYTV-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DYTV-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C99484D1E2F3C8C00940920 /* DYTV_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYTV_swiftTests.swift; sourceTree = "<group>"; };
+		3C99484F1E2F3C8C00940920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9948541E2F3C8C00940920 /* DYTV-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DYTV-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9948581E2F3C8C00940920 /* DYTV_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYTV_swiftUITests.swift; sourceTree = "<group>"; };
+		3C99485A1E2F3C8C00940920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9948691E2F3D0000940920 /* YFAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFAttentionViewController.swift; sourceTree = "<group>"; };
+		3C99486F1E2F3D0000940920 /* YFHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFHomeViewController.swift; sourceTree = "<group>"; };
+		3C9948751E2F3D0000940920 /* YFLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFLiveViewController.swift; sourceTree = "<group>"; };
+		3C99487A1E2F3D0000940920 /* YFBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFBaseViewController.swift; sourceTree = "<group>"; };
+		3C99487B1E2F3D0000940920 /* YFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFNavigationController.swift; sourceTree = "<group>"; };
+		3C99487C1E2F3D0000940920 /* YFTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFTabBarViewController.swift; sourceTree = "<group>"; };
+		3C99487F1E2F3D0000940920 /* YFProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFProfileViewController.swift; sourceTree = "<group>"; };
+		3C9948851E2F3D0000940920 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9948321E2F3C8C00940920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9948461E2F3C8C00940920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9948511E2F3C8C00940920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C99482C1E2F3C8C00940920 = {
+			isa = PBXGroup;
+			children = (
+				3C9948371E2F3C8C00940920 /* DYTV-swift */,
+				3C99484C1E2F3C8C00940920 /* DYTV-swiftTests */,
+				3C9948571E2F3C8C00940920 /* DYTV-swiftUITests */,
+				3C9948361E2F3C8C00940920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9948361E2F3C8C00940920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948351E2F3C8C00940920 /* DYTV-swift.app */,
+				3C9948491E2F3C8C00940920 /* DYTV-swiftTests.xctest */,
+				3C9948541E2F3C8C00940920 /* DYTV-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9948371E2F3C8C00940920 /* DYTV-swift */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948661E2F3D0000940920 /* Classes */,
+				3C9948381E2F3C8C00940920 /* AppDelegate.swift */,
+				3C99483C1E2F3C8C00940920 /* Main.storyboard */,
+				3C99483F1E2F3C8C00940920 /* Assets.xcassets */,
+				3C9948411E2F3C8C00940920 /* LaunchScreen.storyboard */,
+				3C9948441E2F3C8C00940920 /* Info.plist */,
+			);
+			path = "DYTV-swift";
+			sourceTree = "<group>";
+		};
+		3C99484C1E2F3C8C00940920 /* DYTV-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C99484D1E2F3C8C00940920 /* DYTV_swiftTests.swift */,
+				3C99484F1E2F3C8C00940920 /* Info.plist */,
+			);
+			path = "DYTV-swiftTests";
+			sourceTree = "<group>";
+		};
+		3C9948571E2F3C8C00940920 /* DYTV-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948581E2F3C8C00940920 /* DYTV_swiftUITests.swift */,
+				3C99485A1E2F3C8C00940920 /* Info.plist */,
+			);
+			path = "DYTV-swiftUITests";
+			sourceTree = "<group>";
+		};
+		3C9948661E2F3D0000940920 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948671E2F3D0000940920 /* Follow */,
+				3C99486D1E2F3D0000940920 /* Home */,
+				3C9948731E2F3D0000940920 /* Live */,
+				3C9948791E2F3D0000940920 /* Main */,
+				3C99487D1E2F3D0000940920 /* Profile */,
+				3C9948831E2F3D0000940920 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C9948671E2F3D0000940920 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948681E2F3D0000940920 /* Controller */,
+				3C99486A1E2F3D0000940920 /* Model */,
+				3C99486B1E2F3D0000940920 /* View */,
+				3C99486C1E2F3D0000940920 /* ViewModel */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		3C9948681E2F3D0000940920 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948691E2F3D0000940920 /* YFAttentionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C99486A1E2F3D0000940920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C99486B1E2F3D0000940920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C99486C1E2F3D0000940920 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C99486D1E2F3D0000940920 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3C99486E1E2F3D0000940920 /* Controller */,
+				3C9948701E2F3D0000940920 /* Model */,
+				3C9948711E2F3D0000940920 /* View */,
+				3C9948721E2F3D0000940920 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3C99486E1E2F3D0000940920 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C99486F1E2F3D0000940920 /* YFHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C9948701E2F3D0000940920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C9948711E2F3D0000940920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C9948721E2F3D0000940920 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C9948731E2F3D0000940920 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948741E2F3D0000940920 /* Controller */,
+				3C9948761E2F3D0000940920 /* Model */,
+				3C9948771E2F3D0000940920 /* View */,
+				3C9948781E2F3D0000940920 /* ViewModel */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		3C9948741E2F3D0000940920 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948751E2F3D0000940920 /* YFLiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C9948761E2F3D0000940920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C9948771E2F3D0000940920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C9948781E2F3D0000940920 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C9948791E2F3D0000940920 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3C99487A1E2F3D0000940920 /* YFBaseViewController.swift */,
+				3C99487B1E2F3D0000940920 /* YFNavigationController.swift */,
+				3C99487C1E2F3D0000940920 /* YFTabBarViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3C99487D1E2F3D0000940920 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3C99487E1E2F3D0000940920 /* Controller */,
+				3C9948801E2F3D0000940920 /* Model */,
+				3C9948811E2F3D0000940920 /* View */,
+				3C9948821E2F3D0000940920 /* ViewModel */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3C99487E1E2F3D0000940920 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C99487F1E2F3D0000940920 /* YFProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C9948801E2F3D0000940920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C9948811E2F3D0000940920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C9948821E2F3D0000940920 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C9948831E2F3D0000940920 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948841E2F3D0000940920 /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3C9948841E2F3D0000940920 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C9948851E2F3D0000940920 /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9948341E2F3C8C00940920 /* DYTV-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C99485D1E2F3C8C00940920 /* Build configuration list for PBXNativeTarget "DYTV-swift" */;
+			buildPhases = (
+				3C9948311E2F3C8C00940920 /* Sources */,
+				3C9948321E2F3C8C00940920 /* Frameworks */,
+				3C9948331E2F3C8C00940920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DYTV-swift";
+			productName = "DYTV-swift";
+			productReference = 3C9948351E2F3C8C00940920 /* DYTV-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C9948481E2F3C8C00940920 /* DYTV-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9948601E2F3C8C00940920 /* Build configuration list for PBXNativeTarget "DYTV-swiftTests" */;
+			buildPhases = (
+				3C9948451E2F3C8C00940920 /* Sources */,
+				3C9948461E2F3C8C00940920 /* Frameworks */,
+				3C9948471E2F3C8C00940920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C99484B1E2F3C8C00940920 /* PBXTargetDependency */,
+			);
+			name = "DYTV-swiftTests";
+			productName = "DYTV-swiftTests";
+			productReference = 3C9948491E2F3C8C00940920 /* DYTV-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C9948531E2F3C8C00940920 /* DYTV-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9948631E2F3C8C00940920 /* Build configuration list for PBXNativeTarget "DYTV-swiftUITests" */;
+			buildPhases = (
+				3C9948501E2F3C8C00940920 /* Sources */,
+				3C9948511E2F3C8C00940920 /* Frameworks */,
+				3C9948521E2F3C8C00940920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9948561E2F3C8C00940920 /* PBXTargetDependency */,
+			);
+			name = "DYTV-swiftUITests";
+			productName = "DYTV-swiftUITests";
+			productReference = 3C9948541E2F3C8C00940920 /* DYTV-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C99482D1E2F3C8C00940920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YangFan;
+				TargetAttributes = {
+					3C9948341E2F3C8C00940920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FN5RQSTW98;
+						ProvisioningStyle = Automatic;
+					};
+					3C9948481E2F3C8C00940920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C9948341E2F3C8C00940920;
+					};
+					3C9948531E2F3C8C00940920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C9948341E2F3C8C00940920;
+					};
+				};
+			};
+			buildConfigurationList = 3C9948301E2F3C8C00940920 /* Build configuration list for PBXProject "DYTV-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C99482C1E2F3C8C00940920;
+			productRefGroup = 3C9948361E2F3C8C00940920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9948341E2F3C8C00940920 /* DYTV-swift */,
+				3C9948481E2F3C8C00940920 /* DYTV-swiftTests */,
+				3C9948531E2F3C8C00940920 /* DYTV-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9948331E2F3C8C00940920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9948431E2F3C8C00940920 /* LaunchScreen.storyboard in Resources */,
+				3C9948401E2F3C8C00940920 /* Assets.xcassets in Resources */,
+				3C99483E1E2F3C8C00940920 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9948471E2F3C8C00940920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9948521E2F3C8C00940920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9948311E2F3C8C00940920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C99488D1E2F3D0000940920 /* UIBarButtonItem-Extension.swift in Sources */,
+				3C9948881E2F3D0000940920 /* YFLiveViewController.swift in Sources */,
+				3C99488B1E2F3D0000940920 /* YFTabBarViewController.swift in Sources */,
+				3C9948871E2F3D0000940920 /* YFHomeViewController.swift in Sources */,
+				3C9948891E2F3D0000940920 /* YFBaseViewController.swift in Sources */,
+				3C99488C1E2F3D0000940920 /* YFProfileViewController.swift in Sources */,
+				3C99488A1E2F3D0000940920 /* YFNavigationController.swift in Sources */,
+				3C9948861E2F3D0000940920 /* YFAttentionViewController.swift in Sources */,
+				3C9948391E2F3C8C00940920 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9948451E2F3C8C00940920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C99484E1E2F3C8C00940920 /* DYTV_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9948501E2F3C8C00940920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9948591E2F3C8C00940920 /* DYTV_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C99484B1E2F3C8C00940920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9948341E2F3C8C00940920 /* DYTV-swift */;
+			targetProxy = 3C99484A1E2F3C8C00940920 /* PBXContainerItemProxy */;
+		};
+		3C9948561E2F3C8C00940920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9948341E2F3C8C00940920 /* DYTV-swift */;
+			targetProxy = 3C9948551E2F3C8C00940920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C99483C1E2F3C8C00940920 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C99483D1E2F3C8C00940920 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C9948411E2F3C8C00940920 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9948421E2F3C8C00940920 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C99485B1E2F3C8C00940920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C99485C1E2F3C8C00940920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C99485E1E2F3C8C00940920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FN5RQSTW98;
+				INFOPLIST_FILE = "DYTV-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coderman.DYTV-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C99485F1E2F3C8C00940920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FN5RQSTW98;
+				INFOPLIST_FILE = "DYTV-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coderman.DYTV-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3C9948611E2F3C8C00940920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DYTV-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coderman.DYTV-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYTV-swift.app/DYTV-swift";
+			};
+			name = Debug;
+		};
+		3C9948621E2F3C8C00940920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DYTV-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coderman.DYTV-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYTV-swift.app/DYTV-swift";
+			};
+			name = Release;
+		};
+		3C9948641E2F3C8C00940920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DYTV-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coderman.DYTV-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DYTV-swift";
+			};
+			name = Debug;
+		};
+		3C9948651E2F3C8C00940920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "DYTV-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coderman.DYTV-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DYTV-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9948301E2F3C8C00940920 /* Build configuration list for PBXProject "DYTV-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C99485B1E2F3C8C00940920 /* Debug */,
+				3C99485C1E2F3C8C00940920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C99485D1E2F3C8C00940920 /* Build configuration list for PBXNativeTarget "DYTV-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C99485E1E2F3C8C00940920 /* Debug */,
+				3C99485F1E2F3C8C00940920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C9948601E2F3C8C00940920 /* Build configuration list for PBXNativeTarget "DYTV-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9948611E2F3C8C00940920 /* Debug */,
+				3C9948621E2F3C8C00940920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C9948631E2F3C8C00940920 /* Build configuration list for PBXNativeTarget "DYTV-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9948641E2F3C8C00940920 /* Debug */,
+				3C9948651E2F3C8C00940920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C99482D1E2F3C8C00940920 /* Project object */;
+}
