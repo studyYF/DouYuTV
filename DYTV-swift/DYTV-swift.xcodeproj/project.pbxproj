@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C01C7F51E45AC21009E849C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C01C7F41E45AC21009E849C /* UIColor+Extension.swift */; };
 		3C9948391E2F3C8C00940920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9948381E2F3C8C00940920 /* AppDelegate.swift */; };
 		3C99483E1E2F3C8C00940920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C99483C1E2F3C8C00940920 /* Main.storyboard */; };
 		3C9948401E2F3C8C00940920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C99483F1E2F3C8C00940920 /* Assets.xcassets */; };
@@ -21,6 +22,9 @@
 		3C99488B1E2F3D0000940920 /* YFTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99487C1E2F3D0000940920 /* YFTabBarViewController.swift */; };
 		3C99488C1E2F3D0000940920 /* YFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99487F1E2F3D0000940920 /* YFProfileViewController.swift */; };
 		3C99488D1E2F3D0000940920 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9948851E2F3D0000940920 /* UIBarButtonItem-Extension.swift */; };
+		3C9948901E2F46BF00940920 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99488F1E2F46BF00940920 /* PageTitleView.swift */; };
+		3C9948921E308BCF00940920 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9948911E308BCF00940920 /* Common.swift */; };
+		3C9948941E30996400940920 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9948931E30996400940920 /* PageContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C01C7F41E45AC21009E849C /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		3C9948351E2F3C8C00940920 /* DYTV-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DYTV-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9948381E2F3C8C00940920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C99483D1E2F3C8C00940920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +66,9 @@
 		3C99487C1E2F3D0000940920 /* YFTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFTabBarViewController.swift; sourceTree = "<group>"; };
 		3C99487F1E2F3D0000940920 /* YFProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFProfileViewController.swift; sourceTree = "<group>"; };
 		3C9948851E2F3D0000940920 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		3C99488F1E2F46BF00940920 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		3C9948911E308BCF00940920 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		3C9948931E30996400940920 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +283,7 @@
 		3C9948791E2F3D0000940920 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3C99488E1E2F465A00940920 /* View */,
 				3C99487A1E2F3D0000940920 /* YFBaseViewController.swift */,
 				3C99487B1E2F3D0000940920 /* YFNavigationController.swift */,
 				3C99487C1E2F3D0000940920 /* YFTabBarViewController.swift */,
@@ -326,6 +335,7 @@
 			isa = PBXGroup;
 			children = (
 				3C9948841E2F3D0000940920 /* Extension */,
+				3C9948911E308BCF00940920 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -334,8 +344,18 @@
 			isa = PBXGroup;
 			children = (
 				3C9948851E2F3D0000940920 /* UIBarButtonItem-Extension.swift */,
+				3C01C7F41E45AC21009E849C /* UIColor+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		3C99488E1E2F465A00940920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C99488F1E2F46BF00940920 /* PageTitleView.swift */,
+				3C9948931E30996400940920 /* PageContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,11 +495,15 @@
 			files = (
 				3C99488D1E2F3D0000940920 /* UIBarButtonItem-Extension.swift in Sources */,
 				3C9948881E2F3D0000940920 /* YFLiveViewController.swift in Sources */,
+				3C9948901E2F46BF00940920 /* PageTitleView.swift in Sources */,
 				3C99488B1E2F3D0000940920 /* YFTabBarViewController.swift in Sources */,
+				3C9948921E308BCF00940920 /* Common.swift in Sources */,
 				3C9948871E2F3D0000940920 /* YFHomeViewController.swift in Sources */,
 				3C9948891E2F3D0000940920 /* YFBaseViewController.swift in Sources */,
+				3C9948941E30996400940920 /* PageContentView.swift in Sources */,
 				3C99488C1E2F3D0000940920 /* YFProfileViewController.swift in Sources */,
 				3C99488A1E2F3D0000940920 /* YFNavigationController.swift in Sources */,
+				3C01C7F51E45AC21009E849C /* UIColor+Extension.swift in Sources */,
 				3C9948861E2F3D0000940920 /* YFAttentionViewController.swift in Sources */,
 				3C9948391E2F3C8C00940920 /* AppDelegate.swift in Sources */,
 			);
@@ -726,6 +750,7 @@
 				3C99485F1E2F3C8C00940920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9948601E2F3C8C00940920 /* Build configuration list for PBXNativeTarget "DYTV-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -734,6 +759,7 @@
 				3C9948621E2F3C8C00940920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9948631E2F3C8C00940920 /* Build configuration list for PBXNativeTarget "DYTV-swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -742,6 +768,7 @@
 				3C9948651E2F3C8C00940920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
